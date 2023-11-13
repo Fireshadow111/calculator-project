@@ -12,10 +12,14 @@ button{
     height: 55px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
 }
 
 button:hover{
     cursor: pointer;
+    background-color: white;
+    color: black;
+    border-color: black;
 }
 
 .clear{
@@ -30,9 +34,91 @@ button:hover{
 }
 
 #result{
-    width: 200px;
+    width: 222px;
     height: 25px;
-    margin-top: 10px;
+    margin-top: 5px;
 
 }
+
+@media (max-width: 300px) {
+   
+    button {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .clear {
+        width: 100%;
+    }
+
+    .cal-div{
+        background-color: white;
+        max-width: fit-content;
+        margin-top: 50px;
+    }
+
+    #result{
+        width: 160px;
+        height: 25px;
+        margin-top: 5px;
+}
+}
+
+
+@media (max-width: 720px) {
+   
+    button {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .clear {
+        width: 100%;
+    }
+
+    .cal-div{
+        background-color: white;
+        max-width: fit-content;
+        margin-top: 50px;
+    }
+
+    #result{
+        width: 160px;
+        height: 25px;
+        margin-top: 5px;
+}
+
+}
+
+@media (max-width: 1080px) {
+   
+
+    button {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .clear {
+        width: 175px;
+    }
+
+    .cal-div{
+        background-color: white;
+        max-width: fit-content;
+        margin-top: 50px;
+    }
+
+    #result{
+        width: 160px;
+        height: 25px;
+        margin-top: 5px;
+}
+
+
+}
+
+
 
